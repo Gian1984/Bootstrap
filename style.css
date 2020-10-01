@@ -1,0 +1,25 @@
+.card-img,
+.card-img-top {
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+    height: 200px;
+}
+
+.btn {
+    border-radius: 50px;
+    background-color: white;
+    color: gray;
+    border: none;
+}
+
+.btn:hover {
+    background-color: blue;
+}
+
+.btn::after {
+    background-color: white;
+}
+
+.container {
+    background-color: lightblue;
+}
